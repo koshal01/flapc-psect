@@ -1,0 +1,52 @@
+.verticalLine {
+    border-right: 1px solid darkslategray;
+    height: 3rem;
+    padding-right: 0.5rem;
+    margin-right: 0.5rem;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.remove {
+    text-decoration: none;
+    background-color: unset !important;
+    color: unset !important;
+}
+
+#users {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    justify-content: center;
+}
+
+table {
+    border-radius: 25px;
+}
+
+#users td,
+#users th {
+    border-collapse: collapse;
+    padding: 8px;
+
+}
+
+#users tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#users tr:hover {
+    background-color: #ddd;
+}
+
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    text-align: center;
+    background-color: #5975D6;
+    color: white;
+}
